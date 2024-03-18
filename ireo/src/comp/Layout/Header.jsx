@@ -49,13 +49,6 @@ const Header = () => {
       textColor:'black',
     }}>
       <Toolbar>
-        {isMatch ? (
-          <>
-            
-         
-          
-          </>
-        ):(
         <Grid container alignItems="center" spacing={2} >
         <Grid item alignContent="center">
             <Link to="/">
@@ -107,7 +100,6 @@ const Header = () => {
               </Tabs>
             </Grid>
         </Grid>
-        )}
       </Toolbar>
     </AppBar>
   );
